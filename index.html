@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shashwat Web Design</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f4f4;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 25px 20px;
+        }
+
+        header h1 {
+            margin-bottom: 5px;
+        }
+
+        .hero {
+            min-height: 65vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+            background: white;
+        }
+
+        .hero h2 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            max-width: 650px;
+            color: #555;
+            margin-bottom: 25px;
+            font-size: 18px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 13px 22px;
+            margin: 5px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #1d4ed8;
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .about {
+            background: #f4f4f4;
+        }
+
+        .about p {
+            max-width: 700px;
+            margin: auto;
+            color: #555;
+        }
+
+        .services {
+            background: white;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: #f8fafc;
+            padding: 25px;
+            width: 280px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            background: #f4f4f4;
+        }
+
+        footer {
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .hero h2 {
+                font-size: 30px;
+            }
+
+            .hero p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Shashwat Web Design</h1>
+        <p>Simple & Affordable Websites</p>
+    </header>
+
+    <section class="hero">
+        <h2>Build Your Online Presence 🚀</h2>
+
+        <p>
+            I create simple, modern and mobile-friendly websites
+            for individuals and small businesses.
+        </p>
+
+        <div>
+            <a href="#about" class="button">About Me</a>
+            <a href="#services" class="button">View Services</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Me</h2>
+
+        <p>
+            Hello! My name is Shashwat.
+            I am learning web development and creating
+            simple, modern and mobile-friendly websites
+            for individuals and small businesses.
+        </p>
+    </section>
+
+    <section class="services" id="services">
+        <h2>My Services</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>💻 Business Website</h3>
+                <p>
+                    Professional websites for small businesses
+                    and local shops.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🌐 Landing Page</h3>
+                <p>
+                    Simple and attractive pages for
+                    products and services.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>📱 Mobile Friendly</h3>
+                <p>
+                    Websites that work properly on phones,
+                    tablets and computers.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+
+        <p>
+            Website banwane ke liye mujhe email karein.
+        </p>
+
+        <br>
+
+        <a href="mailto:shshwatdeo@gmail.com" class="button">
+            📧 Email Me
+        </a>
+    </section>
+
+    <footer>
+        <p>© 2026 Shashwat Web Design</p>
+    </footer>
+
+</body>
+</html>
+
